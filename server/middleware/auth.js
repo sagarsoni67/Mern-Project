@@ -2,7 +2,7 @@
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 const User = require("../models/User");
-const { Await } = require("react-router-dom");
+const { await } = require("react-router-dom");
 // Configuring dotenv to load environment variables from .env file
 dotenv.config();
 
