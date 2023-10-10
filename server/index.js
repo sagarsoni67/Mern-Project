@@ -17,6 +17,9 @@ const dotenv = require("dotenv");
 const PORT = process.env.PORT || 4000;
 
 // Loading environment variables from .env file
+//if(process.env.NODE_ENV !=="production"){
+// 	require("dotenv").config();
+// }
 dotenv.config();
 
 // Connecting to database
